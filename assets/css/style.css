@@ -1,0 +1,29 @@
+h2 {
+    font-size: 48px;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #333;
+    font-size: 20px;
+}
+
+ul li {
+    color: #777;
+    font-size: 20px;
+}
+
+ul li:nth-of-type(1) {
+    text-decoration: overline;
+}
+
+ul li:nth-of-type(2) {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+ul li:nth-of-type(3) {
+    text-decoration: underline;
+    text-align: right;
+}
